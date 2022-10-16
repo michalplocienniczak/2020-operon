@@ -1,0 +1,6 @@
+1100110 - w systemie binarnym
+32 - w systemie czwórkowym
+
+1100110 = 102 (system dziesiętny)
+32 = 14 (system dziesiętny)
+102 * 14 = 1428
