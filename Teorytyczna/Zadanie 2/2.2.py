@@ -35,7 +35,7 @@ szyfr = ""
 for i in range(0,d):
    #Jeżeli jest znakiem od A do Z
    if ord(s[i])>=ord('A') and ord(s[i])<=ord('Z'):
-      #Przesuń znak o F1%26 miejsc w alfabecie 
+      #Przesuń znak o F1 miejsc w alfabecie 
       szyfr += chr(int(ord('A')+((ord(s[i])-ord('A'))+f1)%26))
       #Iteracyjny algorytm do tworzenia pseudociągu Fibonacciego
       f=(f1+f2)%26
